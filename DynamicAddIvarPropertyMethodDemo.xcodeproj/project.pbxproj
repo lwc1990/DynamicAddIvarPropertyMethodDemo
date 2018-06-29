@@ -15,6 +15,7 @@
 		234B400020E696BD0039AAF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 234B3FFF20E696BD0039AAF7 /* main.m */; };
 		234B400A20E696BD0039AAF7 /* DynamicAddIvarPropertyMethodDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 234B400920E696BD0039AAF7 /* DynamicAddIvarPropertyMethodDemoTests.m */; };
 		234B401520E696BE0039AAF7 /* DynamicAddIvarPropertyMethodDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 234B401420E696BE0039AAF7 /* DynamicAddIvarPropertyMethodDemoUITests.m */; };
+		234B402420E696E20039AAF7 /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 234B402320E696E20039AAF7 /* MyClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		234B401020E696BE0039AAF7 /* DynamicAddIvarPropertyMethodDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicAddIvarPropertyMethodDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		234B401420E696BE0039AAF7 /* DynamicAddIvarPropertyMethodDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicAddIvarPropertyMethodDemoUITests.m; sourceTree = "<group>"; };
 		234B401620E696BE0039AAF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		234B402220E696E20039AAF7 /* MyClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
+		234B402320E696E20039AAF7 /* MyClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				234B3FFB20E696BD0039AAF7 /* LaunchScreen.storyboard */,
 				234B3FFE20E696BD0039AAF7 /* Info.plist */,
 				234B3FFF20E696BD0039AAF7 /* main.m */,
+				234B402220E696E20039AAF7 /* MyClass.h */,
+				234B402320E696E20039AAF7 /* MyClass.m */,
 			);
 			path = DynamicAddIvarPropertyMethodDemo;
 			sourceTree = "<group>";
@@ -265,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				234B402420E696E20039AAF7 /* MyClass.m in Sources */,
 				234B3FF520E696BD0039AAF7 /* ViewController.m in Sources */,
 				234B400020E696BD0039AAF7 /* main.m in Sources */,
 				234B3FF220E696BD0039AAF7 /* AppDelegate.m in Sources */,
